@@ -4,15 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/Secondaire"
     tools:context="com.example.rebierrequentin.lapetitehistoire.MainActivity">
 
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        style="@style/Titre"
+        android:text="La petite histoire"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.086" />
+
+    <Button
+        android:id="@+id/Lire"
+        style="@style/BoutonClassique"
+        android:text="@string/boutonLire"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <Button
+        android:id="@+id/Favoris"
+        style="@style/BoutonClassique"
+        android:text="@string/boutonFav"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="225dp" />
+
+    <Button
+        android:id="@+id/Parametres"
+        style="@style/BoutonClassique"
+        android:text="@string/boutonParam"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="334dp" />
 
 </android.support.constraint.ConstraintLayout>
