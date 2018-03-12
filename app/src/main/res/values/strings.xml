@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">LaPetiteHistoire</string>
+    <string name="titre_app">La petite histoire</string>
     <string name="boutonLire">Lire</string>
-    <string name="boutonFav">Favoris</string>
     <string name="boutonParam">Paramètres</string>
+    <string name="boutonFav">Favoris</string>
+    <string name="toutesleshistoires">Les histoires</string>
+    <string name="histoire2min">2 min</string>
+    <string name="histoire5min">5 min</string>
+    <string name="histoire15min">15 min</string>
+    <string name="histoire30min">30 min</string>
+    <string name="boutonPrecedent">&lt; Précédent</string>
+    <string name="syncroHist">Synchroniser les histoire à minuit</string>
+    <string name="histoireAlea">Histoire au hasard en secouant</string>
+    <string name="partageHistoire">Autoriser le partage des histoires</string>
+    <string name="histoire">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisl urna, tempor ut lacus id, rutrum volutpat ipsum. Pellentesque quis placerat eros, gravida egestas tortor. Aenean ac eros et tortor semper egestas. Cras nulla diam, tempus vitae ante vitae, fermentum fringilla sapien. Curabitur laoreet metus nec blandit aliquet. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed accumsan in ex id gravida. Sed venenatis mauris metus. Cras aliquam nibh a tellus dignissim accumsan. Vestibulum risus augue, sagittis eget pharetra vel, maximus id lorem. Sed quis arcu eu sapien scelerisque bibendum a eget lacus. Vestibulum congue mi eget ante suscipit pharetra. In posuere ullamcorper purus, sed fringilla odio euismod nec. Aliquam fermentum quis eros ac mattis. Integer dignissim gravida dolor sit amet dignissim. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi turpis mi, sagittis eu mi quis, imperdiet malesuada lectus. Donec ultrices ex ipsum, nec pulvinar sapien malesuada sodales. Morbi pharetra quam commodo imperdiet dictum. Aenean et risus justo. Maecenas maximus, lectus et posuere semper, ex purus fringilla purus, et tempus ligula purus vel quam. Morbi ornare massa a eros cursus, non pellentesque ipsum consequat. Praesent nec nisi diam. Etiam vestibulum lorem in luctus viverra. Aliquam erat volutpat. In ac facilisis neque, non volutpat nisi. Maecenas ante felis, viverra in enim id, scelerisque sodales est.</string>
 </resources>

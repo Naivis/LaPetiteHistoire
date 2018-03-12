@@ -7,14 +7,6 @@
     android:background="@color/Secondaire"
     tools:context="com.example.rebierrequentin.lapetitehistoire.MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="70dp"
-        android:layout_height="51dp"
-        android:src="@drawable/logo_import_rouge_25"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="0dp" />
-
     <TextView
         style="@style/Titre"
         android:text="@+string/titre_app"
@@ -25,24 +17,38 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
 
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="70dp"
+        android:layout_height="51dp"
+        android:src="@drawable/logo_import_rouge_25"
+        tools:layout_editor_absoluteX="318dp"
+        tools:layout_editor_absoluteY="0dp" />
+
     <Button
-        android:id="@+id/Lire"
+        android:id="@+id/precedent"
         style="@style/BoutonClassique"
-        android:text="@string/boutonLire"
+        android:layout_width="156dp"
+        android:layout_height="43dp"
+        android:text="@string/boutonPrecedent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        style="@style/BoutonClassique"
+        android:text="Titre 1"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="123dp" />
 
     <Button
-        android:id="@+id/Favoris"
         style="@style/BoutonClassique"
-        android:text="@string/boutonFav"
+        android:text="Titre 2"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="225dp" />
 
     <Button
-        android:id="@+id/Parametres"
         style="@style/BoutonClassique"
-        android:text="@string/boutonParam"
+        android:text="Titre 3"
         tools:layout_editor_absoluteX="92dp"
         tools:layout_editor_absoluteY="334dp" />
 
