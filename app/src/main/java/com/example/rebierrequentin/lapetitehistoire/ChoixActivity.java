@@ -1,5 +1,6 @@
 package com.example.rebierrequentin.lapetitehistoire;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -39,6 +40,33 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
+        //TRAITEMENT !=
+        /*if(v.getId() == R.id.ToutesLesHistoires){
 
+            final Intent intentToutes = new Intent(ChoixActivity.this, LectureActivity.class);
+            this.startActivity(intentLecture);
+        }*/
+
+        if(v.getId() == R.id.histoire2min){
+            //Requete de l'histoire
+            setContentView(R.layout.page_lecture_derniere);
+        }
+
+        if(v.getId() == R.id.histoire5min){
+
+            setContentView(R.layout.page_lecture_derniere);
+        }
+
+        if(v.getId() == R.id.histoire15min){
+
+            setContentView(R.layout.page_lecture_derniere);
+        }
+
+        if(v.getId() == R.id.histoire30min){
+
+            setContentView(R.layout.page_lecture_derniere);
+        }
     }
+
+
 }

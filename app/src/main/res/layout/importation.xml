@@ -9,7 +9,7 @@
 
     <TextView
         style="@style/Titre"
-        android:text="@+string/titre_app"
+        android:text="@string/titre_app"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintLeft_toLeftOf="parent"

@@ -17,39 +17,28 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
-                <Button
-                    android:id="@+id/precedent"
-                    style="@style/BoutonClassique"
-                    android:layout_width="156dp"
-                    android:layout_height="43dp"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:text="@string/boutonPrecedent"
-/>
-
                 <ImageButton
                     android:id="@+id/imageButton1"
                     android:layout_width="70dp"
                     android:layout_height="51dp"
-                    android:layout_above="@+id/textView2"
                     android:layout_alignParentEnd="true"
                     android:src="@drawable/logo_import_rouge_25" />
 
                 <TextView
                     style="@style/Titre"
+                    android:id="@+id/Titre"
                     android:layout_below="@+id/precedent"
                     android:layout_centerHorizontal="true"
                     android:text="@+string/titre_app"
-                    android:id="@+id/textView2" />
+                    android:layout_marginTop="50dp"/>
 
                 <TextView
                     android:id="@+id/textView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/precedent"
-                    android:layout_marginTop="71dp"
-                    android:text="@+string/histoire" />
+                    android:layout_below="@+id/Titre"
+                    android:text="@string/histoire" />
 
             </RelativeLayout>
 
