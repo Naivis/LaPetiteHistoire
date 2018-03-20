@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 /**
@@ -41,40 +42,52 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-        //TRAITEMENT !=
-        /*if(v.getId() == R.id.ToutesLesHistoires){
+
+        if(v.getId() == R.id.ToutesLesHistoires){
 
             final Intent intentToutes = new Intent(ChoixActivity.this, LectureActivity.class);
-            this.startActivity(intentLecture);
-        }*/
+            this.startActivity(intentToutes);
+        }
+        else{
+            this.ecouteurExport();
 
-        if(v.getId() == R.id.histoire2min){
-            //Requete de l'histoire dans une variable
-            setContentView(R.layout.page_lecture_derniere);
-            TextView histoire = (TextView)this.findViewById(R.id.TextView);
-            histoire.setText("lililililli");
+            if(v.getId() == R.id.histoire2min){
+                //Requete de l'histoire dans une variable
+                setContentView(R.layout.histoire);
+                TextView histoire = (TextView)this.findViewById(R.id.TextView);
+                histoire.setText("lililililli");
+            }
+
+            if(v.getId() == R.id.histoire5min){
+                setContentView(R.layout.histoire);
+                TextView histoire = (TextView)this.findViewById(R.id.TextView);
+                histoire.setText("lululululu");
+            }
+
+            if(v.getId() == R.id.histoire15min){
+
+                setContentView(R.layout.histoire);
+                TextView histoire = (TextView)this.findViewById(R.id.TextView);
+                histoire.setText("lololololololo");
+            }
+
+            if(v.getId() == R.id.histoire30min){
+
+                setContentView(R.layout.histoire);
+                TextView histoire = (TextView)this.findViewById(R.id.TextView);
+                histoire.setText("lylylylylylylylyly");
+            }
         }
 
-        if(v.getId() == R.id.histoire5min){
-            setContentView(R.layout.page_lecture_derniere);
-            TextView histoire = (TextView)this.findViewById(R.id.TextView);
-            histoire.setText("lululululu");
-        }
 
-        if(v.getId() == R.id.histoire15min){
+        if(v.getId() == R.id.Export){
 
-            setContentView(R.layout.page_lecture_derniere);
-            TextView histoire = (TextView)this.findViewById(R.id.TextView);
-            histoire.setText("lololololololo");
-        }
-
-        if(v.getId() == R.id.histoire30min){
-
-            setContentView(R.layout.page_lecture_derniere);
-            TextView histoire = (TextView)this.findViewById(R.id.TextView);
-            histoire.setText("lylylylylylylylyly");
         }
     }
 
-
+    public void ecouteurExport(){
+        setContentView(R.layout.histoire);
+        ImageButton boutonexport = (ImageButton)this.findViewById(R.id.Export);
+        boutonexport.setOnClickListener(this);
+    }
 }

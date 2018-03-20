@@ -24,11 +24,11 @@
                     android:text="@string/titre_app" />
 
                 <ImageButton
-                    android:id="@+id/Import"
+                    android:id="@+id/Export"
                     android:layout_width="70dp"
                     android:layout_height="51dp"
                     android:layout_alignParentEnd="true"
-                    android:src="@drawable/logo_import_rouge_25"
+                    android:src="@drawable/logo_export_rouge_25"
                     android:layout_marginTop="25dp"/>
 
                 <TextView
@@ -36,7 +36,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/Import"
+                    android:layout_below="@+id/Export"
                     android:text="@string/histoire" />
 
             </RelativeLayout>
