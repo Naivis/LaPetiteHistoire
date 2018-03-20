@@ -17,27 +17,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <TextView
+                    android:id="@+id/Titre"
+                    style="@style/Titre"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/titre_app" />
+
                 <ImageButton
-                    android:id="@+id/imageButton1"
+                    android:id="@+id/Import"
                     android:layout_width="70dp"
                     android:layout_height="51dp"
                     android:layout_alignParentEnd="true"
-                    android:src="@drawable/logo_import_rouge_25" />
+                    android:src="@drawable/logo_import_rouge_25"
+                    android:layout_marginTop="25dp"/>
 
                 <TextView
-                    style="@style/Titre"
-                    android:id="@+id/Titre"
-                    android:layout_below="@+id/precedent"
-                    android:layout_centerHorizontal="true"
-                    android:text="@+string/titre_app"
-                    android:layout_marginTop="50dp"/>
-
-                <TextView
-                    android:id="@+id/textView"
+                    android:id="@+id/TextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:layout_below="@+id/Titre"
+                    android:layout_below="@+id/Import"
                     android:text="@string/histoire" />
 
             </RelativeLayout>

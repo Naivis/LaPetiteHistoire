@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 /**
  * Created by Rebierre Quentin on 20/03/2018.
@@ -48,23 +49,30 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
         }*/
 
         if(v.getId() == R.id.histoire2min){
-            //Requete de l'histoire
+            //Requete de l'histoire dans une variable
             setContentView(R.layout.page_lecture_derniere);
+            TextView histoire = (TextView)this.findViewById(R.id.TextView);
+            histoire.setText("lililililli");
         }
 
         if(v.getId() == R.id.histoire5min){
-
             setContentView(R.layout.page_lecture_derniere);
+            TextView histoire = (TextView)this.findViewById(R.id.TextView);
+            histoire.setText("lululululu");
         }
 
         if(v.getId() == R.id.histoire15min){
 
             setContentView(R.layout.page_lecture_derniere);
+            TextView histoire = (TextView)this.findViewById(R.id.TextView);
+            histoire.setText("lololololololo");
         }
 
         if(v.getId() == R.id.histoire30min){
 
             setContentView(R.layout.page_lecture_derniere);
+            TextView histoire = (TextView)this.findViewById(R.id.TextView);
+            histoire.setText("lylylylylylylylyly");
         }
     }
 
