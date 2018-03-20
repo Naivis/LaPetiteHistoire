@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                     public void onClick(DialogInterface arg0, int arg1) {
                         finish();
-                        //MenuPrincipal.super.onBackPressed();
+
                     }
                 }).create().show();
 

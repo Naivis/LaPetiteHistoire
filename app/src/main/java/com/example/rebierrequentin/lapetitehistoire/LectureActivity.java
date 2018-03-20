@@ -13,7 +13,5 @@ public class LectureActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.choisir_duree_histoire);
-
-
     }
 }
