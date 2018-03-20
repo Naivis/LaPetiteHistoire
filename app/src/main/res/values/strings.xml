@@ -10,8 +10,8 @@
     <string name="histoire15min">15 min</string>
     <string name="histoire30min">30 min</string>
     <string name="boutonPrecedent">&lt; Précédent</string>
-    <string name="syncroHist">Synchroniser les histoire à minuit</string>
-    <string name="histoireAlea">Histoire au hasard en secouant</string>
-    <string name="partageHistoire">Autoriser le partage des histoires</string>
+    <string name="syncroHist">Synchroniser les histoire à minuit :    </string>
+    <string name="histoireAlea">Histoire au hasard en secouant :     </string>
+    <string name="partageHistoire">Autoriser le partage des histoires :     </string>
     <string name="histoire">blablabla</string>
 </resources>

@@ -34,24 +34,24 @@
 
 
 
-    <CheckBox
-        android:id="@+id/syncHistoire"
+    <Switch
+        android:id="@+id/switchSynch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@+string/syncroHist"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 
-    <CheckBox
-        android:id="@+id/histoireAlea"
+    <Switch
+        android:id="@+id/switchHasard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@+string/histoireAlea"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 
-    <CheckBox
-        android:id="@+id/partageHistoire"
+    <Switch
+        android:id="@+id/switchPartage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@+string/partageHistoire"
