@@ -7,43 +7,77 @@
     android:background="@color/Secondaire"
     tools:context="com.example.rebierrequentin.lapetitehistoire.MainActivity">
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="70dp"
-        android:layout_height="51dp"
-        android:src="@drawable/logo_import_rouge_25"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="0dp" />
 
-    <TextView
-        style="@style/Titre"
-        android:text="@+string/titre_app"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.113" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <Button
-        android:id="@+id/Lire"
-        style="@style/BoutonClassique"
-        android:text="@string/boutonLire"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="123dp" />
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="51dp"
+            android:src="@drawable/logo_import_rouge_25"
+            android:layout_gravity="right"/>
 
-    <Button
-        android:id="@+id/Favoris"
-        style="@style/BoutonClassique"
-        android:text="@string/boutonFav"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="225dp" />
+        <TextView
+            style="@style/Titre"
+            android:text="@+string/titre_app"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.113" />
 
-    <Button
-        android:id="@+id/Parametres"
-        style="@style/BoutonClassique"
-        android:text="@string/boutonParam"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="334dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="75dp"
+            android:paddingRight="15dp">
+
+            <Button
+                android:id="@+id/Lire"
+                style="@style/BoutonClassique"
+                android:text="@string/boutonLire" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:paddingLeft="75dp"
+            android:paddingRight="15dp">
+
+            <Button
+                android:id="@+id/Favoris"
+                style="@style/BoutonClassique"
+                android:layout_gravity="center"
+                android:text="@string/boutonFav" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="75dp"
+        android:paddingRight="15dp">
+        <Button
+            android:id="@+id/Parametres"
+            style="@style/BoutonClassique"
+            android:text="@string/boutonParam" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
 
 </android.support.constraint.ConstraintLayout>

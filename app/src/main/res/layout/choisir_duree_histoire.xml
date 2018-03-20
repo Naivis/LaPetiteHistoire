@@ -29,7 +29,7 @@
         android:id="@+id/boutonFavoris"
         android:layout_width="70dp"
         android:layout_height="51dp"
-        android:src="@drawable/favorite-icon_rouge_39"
+        android:src="@drawable/favorite_icon_rouge_39"
         tools:layout_editor_absoluteX="248dp"
         tools:layout_editor_absoluteY="3dp" />
 
