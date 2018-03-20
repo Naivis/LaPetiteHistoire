@@ -17,7 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LectureActivity"/>
+        <activity android:name=".ChoixActivity"/>
         <activity android:name=".FavorisActivity"/>
         <activity android:name=".ParametresActivity"/>
     </application>

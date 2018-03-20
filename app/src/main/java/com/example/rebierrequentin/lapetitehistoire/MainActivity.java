@@ -2,7 +2,6 @@ package com.example.rebierrequentin.lapetitehistoire;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         if(v.getId() == R.id.Lire){
 
-            final Intent intentLecture = new Intent(MainActivity.this, LectureActivity.class);
+            final Intent intentLecture = new Intent(MainActivity.this, ChoixActivity.class);
             this.startActivity(intentLecture);
         }
 
