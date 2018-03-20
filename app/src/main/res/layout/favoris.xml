@@ -7,6 +7,14 @@
     android:background="@color/Secondaire"
     tools:context="com.example.rebierrequentin.lapetitehistoire.MainActivity">
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
     <TextView
         style="@style/Titre"
         android:text="@+string/titre_app"
@@ -17,39 +25,47 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.113" />
 
-    <ImageButton
-        android:id="@+id/imageButton1"
-        android:layout_width="70dp"
-        android:layout_height="51dp"
-        android:src="@drawable/logo_import_rouge_25"
-        tools:layout_editor_absoluteX="318dp"
-        tools:layout_editor_absoluteY="0dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:paddingLeft="0dp"
+        android:paddingRight="15dp">
 
-    <Button
-        android:id="@+id/precedent"
-        style="@style/BoutonClassique"
-        android:layout_width="156dp"
-        android:layout_height="43dp"
-        android:text="@string/boutonPrecedent"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="0dp" />
+        <Button
+            android:id="@+id/precedent"
+            style="@style/BoutonClassique"
+            android:layout_width="156dp"
+            android:layout_height="43dp"
+            android:text="@string/boutonPrecedent"
+            android:layout_gravity="left"/>
+
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="70dp"
+            android:layout_height="51dp"
+            android:src="@drawable/logo_import_rouge_25"
+            android:layout_marginLeft="135dp"/>
+    </LinearLayout>
+
 
     <Button
         style="@style/BoutonClassique"
         android:text="Titre 1"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="123dp" />
+        android:layout_gravity="center" />
 
     <Button
         style="@style/BoutonClassique"
         android:text="Titre 2"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="225dp" />
+        android:layout_gravity="center" />
 
     <Button
         style="@style/BoutonClassique"
         android:text="Titre 3"
-        tools:layout_editor_absoluteX="92dp"
-        tools:layout_editor_absoluteY="334dp" />
+        android:layout_gravity="center" />
+
+    </LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
