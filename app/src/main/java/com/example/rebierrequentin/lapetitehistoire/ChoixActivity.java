@@ -45,43 +45,34 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
 
         if(v.getId() == R.id.ToutesLesHistoires){
 
-            final Intent intentToutes = new Intent(ChoixActivity.this, LectureActivity.class);
+            final Intent intentToutes = new Intent(ChoixActivity.this, ExportActivity.class);
             this.startActivity(intentToutes);
         }
         else{
             this.ecouteurExport();
-
+            TextView histoire = (TextView)this.findViewById(R.id.TextView);
             if(v.getId() == R.id.histoire2min){
-                //Requete de l'histoire dans une variable
-                setContentView(R.layout.histoire);
-                TextView histoire = (TextView)this.findViewById(R.id.TextView);
                 histoire.setText("lililililli");
             }
 
             if(v.getId() == R.id.histoire5min){
-                setContentView(R.layout.histoire);
-                TextView histoire = (TextView)this.findViewById(R.id.TextView);
                 histoire.setText("lululululu");
             }
 
             if(v.getId() == R.id.histoire15min){
-
-                setContentView(R.layout.histoire);
-                TextView histoire = (TextView)this.findViewById(R.id.TextView);
                 histoire.setText("lololololololo");
             }
 
             if(v.getId() == R.id.histoire30min){
-
-                setContentView(R.layout.histoire);
-                TextView histoire = (TextView)this.findViewById(R.id.TextView);
                 histoire.setText("lylylylylylylylyly");
             }
         }
 
 
         if(v.getId() == R.id.Export){
-
+            final Intent export = new Intent(ChoixActivity.this, ExportActivity.class);
+            export.putExtra("titre", "LE TITRE DE L'HISTOIRE");
+            this.startActivity(export);
         }
     }
 
@@ -89,5 +80,6 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.histoire);
         ImageButton boutonexport = (ImageButton)this.findViewById(R.id.Export);
         boutonexport.setOnClickListener(this);
+        TextView histoire = (TextView)this.findViewById(R.id.TextView);
     }
 }

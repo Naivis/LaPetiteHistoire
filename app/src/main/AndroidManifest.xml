@@ -20,7 +20,7 @@
         <activity android:name=".ChoixActivity"/>
         <activity android:name=".FavorisActivity"/>
         <activity android:name=".ParametresActivity"/>
-        <activity android:name=".LectureActivity"/>
+        <activity android:name=".ExportActivity"/>
     </application>
 
 </manifest>
