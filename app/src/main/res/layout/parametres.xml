@@ -38,7 +38,7 @@
         android:id="@+id/switchSynch"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/syncroHist"
+        android:text="@string/syncroHist"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 
@@ -46,7 +46,7 @@
         android:id="@+id/switchHasard"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/histoireAlea"
+        android:text="@string/histoireAlea"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 
@@ -54,7 +54,7 @@
         android:id="@+id/switchPartage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@+string/partageHistoire"
+        android:text="@string/partageHistoire"
         android:layout_gravity="center"
         android:layout_marginTop="50dp"/>
 

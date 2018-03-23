@@ -49,6 +49,7 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
             this.startActivity(intentToutes);
         }
         else{
+            //Bouge le ecouteurExport -> pb de else, mettre une série de ET?
             this.ecouteurExport();
             TextView histoire = (TextView)this.findViewById(R.id.TextView);
             if(v.getId() == R.id.histoire2min){

@@ -8,11 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-/**
- * Created by Rebierre Quentin on 20/03/2018.
- */
 
-//Ne servira sans doute à rien
 public class ExportActivity extends AppCompatActivity implements View.OnClickListener{
 
     @Override
@@ -31,10 +27,10 @@ public class ExportActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
         Intent export = getIntent();
-        String titre = export.getExtras().getString("titre", "");
-        EditText dest = (EditText)this.findViewById(R.id.Envoyer);
+        //String titre = export.getExtras().getString("titre", "");
+        EditText dest = (EditText)this.findViewById(R.id.NumDest);
         String destinatiare = dest.getText().toString();
 
-        SmsManager.getDefault().sendTextMessage(destinatiare,null,titre,null,null);
+        SmsManager.getDefault().sendTextMessage(destinatiare,null,"faut voir",null,null);
     }
 }
