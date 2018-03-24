@@ -105,7 +105,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onBackPressed() {
         new AlertDialog.Builder(this)
                 .setTitle("Quitter")
-                .setMessage("Voulez vous vraiment quitter?")
+                .setMessage("Voulez-vous vraiment quitter?")
                 .setNegativeButton(android.R.string.no, null)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 
