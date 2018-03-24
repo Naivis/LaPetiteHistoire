@@ -27,10 +27,10 @@ public class ExportActivity extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onClick(View v) {
         Intent export = getIntent();
-        //String titre = export.getExtras().getString("titre", "");
+        String titre = export.getExtras().getString("titre", "").toString();
         EditText dest = (EditText)this.findViewById(R.id.NumDest);
         String destinatiare = dest.getText().toString();
 
-        SmsManager.getDefault().sendTextMessage(destinatiare,null,"faut voir",null,null);
+        SmsManager.getDefault().sendTextMessage(destinatiare,null,titre,null,null);
     }
 }

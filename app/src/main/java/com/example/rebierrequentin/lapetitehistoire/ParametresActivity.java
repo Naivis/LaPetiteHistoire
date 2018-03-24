@@ -19,7 +19,7 @@ public class ParametresActivity extends AppCompatActivity {
 
         this.ajouterSwitch();
     }
-
+//Switchs qui ne restent pas cochés, peut être un bouton valider ou variables dans la BD
     public void ajouterSwitch(){
         final Switch switchSynch = (Switch)this.findViewById(R.id.switchSynch);
         switchSynch.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {

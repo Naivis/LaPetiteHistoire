@@ -8,6 +8,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 /**
  * Created by Rebierre Quentin on 20/03/2018.
  */
@@ -43,36 +45,41 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
 
-        if(v.getId() == R.id.ToutesLesHistoires){
+        if (v.getId() == R.id.ToutesLesHistoires) {
 
-            final Intent intentToutes = new Intent(ChoixActivity.this, ExportActivity.class);
+            final Intent intentToutes = new Intent(ChoixActivity.this, FavorisActivity.class);
             this.startActivity(intentToutes);
         }
-        else{
-            //Bouge le ecouteurExport -> pb de else, mettre une série de ET?
+
+        if ((v.getId() == R.id.histoire2min) || (v.getId() == R.id.histoire5min) || (v.getId() == R.id.histoire15min) || (v.getId() == R.id.histoire30min)) {
             this.ecouteurExport();
-            TextView histoire = (TextView)this.findViewById(R.id.TextView);
-            if(v.getId() == R.id.histoire2min){
+            TextView histoire = (TextView) this.findViewById(R.id.TextView);
+            TextView Titre = (TextView) this.findViewById(R.id.Titre);
+            if (v.getId() == R.id.histoire2min) {
                 histoire.setText("lililililli");
+                Titre.setText("Titre 2");
             }
 
-            if(v.getId() == R.id.histoire5min){
+            if (v.getId() == R.id.histoire5min) {
                 histoire.setText("lululululu");
+                Titre.setText("Titre 5");
             }
 
-            if(v.getId() == R.id.histoire15min){
+            if (v.getId() == R.id.histoire15min) {
                 histoire.setText("lololololololo");
+                Titre.setText("Titre 15");
             }
 
-            if(v.getId() == R.id.histoire30min){
+            if (v.getId() == R.id.histoire30min) {
                 histoire.setText("lylylylylylylylyly");
+                Titre.setText("Titre 30");
             }
         }
-
-
-        if(v.getId() == R.id.Export){
+        TextView Titre = (TextView) this.findViewById(R.id.Titre);
+        String TextTitre = Titre.getText().toString();
+        if (v.getId() == R.id.Export) {
             final Intent export = new Intent(ChoixActivity.this, ExportActivity.class);
-            export.putExtra("titre", "LE TITRE DE L'HISTOIRE");
+            export.putExtra("titre", TextTitre);
             this.startActivity(export);
         }
     }
@@ -81,6 +88,7 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.histoire);
         ImageButton boutonexport = (ImageButton)this.findViewById(R.id.Export);
         boutonexport.setOnClickListener(this);
-        TextView histoire = (TextView)this.findViewById(R.id.TextView);
+
     }
+
 }
