@@ -28,9 +28,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 Manifest.permission.SEND_SMS)
                 != PackageManager.PERMISSION_GRANTED) {
 
-            ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.SEND_SMS},
-                    MY_PERMISSIONS_REQUEST_SEND_SMS);
+            if (ActivityCompat.shouldShowRequestPermissionRationale(this,
+                    Manifest.permission.SEND_SMS)) {
+                final Intent refusIntent = new Intent(MainActivity.this, RefusActivity.class);
+                this.startActivity(refusIntent);
+            }
+            else{
+
+                ActivityCompat.requestPermissions(this,
+                        new String[]{Manifest.permission.SEND_SMS},
+                        MY_PERMISSIONS_REQUEST_SEND_SMS);
+            }
+
         }
     }
 
