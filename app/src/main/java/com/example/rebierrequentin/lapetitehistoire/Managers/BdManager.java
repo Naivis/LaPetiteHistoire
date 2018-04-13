@@ -1,24 +1,23 @@
-/*package com.example.rebierrequentin.lapetitehistoire.Managers;
+package com.example.rebierrequentin.lapetitehistoire.Managers;
 
-/**
+/*
  * Created by Rebierre Quentin on 25/03/2018.
  */
-/*
+
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.rebierrequentin.lapetitehistoire.Class.ClasseDeBase;
 import com.example.rebierrequentin.lapetitehistoire.SQL.MaBaseSQL;
 
-public class OnVerra {
+public class BdManager {
 
 
     private static final int VERSION_BDD = 1;
     private static final String NOM_BDD = "upgradeit.db";
 
-    private static final String TABLE_VEHICULE = "table_vehicule";
+    private static final String TABLE_HISTOIRE = "table_vehicule";
 
     private static final String COL_ID_VEHICULE = "id_vehicule";
     private static final String COL_NOM_VEHICULE ="nom_vehicule";
@@ -33,7 +32,7 @@ public class OnVerra {
 
     private MaBaseSQL maBaseSQLite;
 
-    public OnVerra(Context context){
+    public BdManager(Context context){
         //On créer la BDD et sa table
         maBaseSQLite = new MaBaseSQL(context, NOM_BDD, null, VERSION_BDD);
     }
@@ -52,7 +51,7 @@ public class OnVerra {
         return bdd;
     }
 
-    public long insertVehicule(OnVerra vehicule){
+    public long insertVehicule(BdManager vehicule){
         //Création d'un ContentValues (fonctionne comme une HashMap)
         ContentValues values = new ContentValues();
         //on lui ajoute une valeur associé à une clé (qui est le nom de la colonne dans laquelle on veut mettre la valeur)
@@ -123,4 +122,3 @@ public class OnVerra {
         return vehicule;
     }
 }
-*/
