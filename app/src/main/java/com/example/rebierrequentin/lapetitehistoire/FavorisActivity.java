@@ -11,15 +11,17 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-/**
- * Created by Rebierre Quentin on 20/03/2018.
- */
+
 
 public class FavorisActivity extends AppCompatActivity implements View.OnClickListener{
 
 
     String titre1 = "";
     String texte1= "";
+    String titre2 = "";
+    String texte2= "";
+    String titre3 = "";
+    String texte3= "";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,8 +31,12 @@ public class FavorisActivity extends AppCompatActivity implements View.OnClickLi
         this.ajouterEcouteurs();
         SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
 
-        titre1 = pref.getString("FAVORI1", "NO");
-        texte1 = pref.getString("FAVORI2", "NO");
+        titre1 = pref.getString("TEXTFAV1", "NO");
+        texte1 = pref.getString("TITREFAV1", "NO");
+        titre2 = pref.getString("TEXTFAV2", "NO");
+        texte2 = pref.getString("TITREFAV2", "NO");
+        titre3 = pref.getString("TEXTFAV3", "NO");
+        texte3 = pref.getString("TITREFAV3", "NO");
     }
 
     public void ajouterEcouteurs(){
@@ -56,12 +62,19 @@ public class FavorisActivity extends AppCompatActivity implements View.OnClickLi
         TextView histoire = (TextView) this.findViewById(R.id.TextView_fav);
         TextView Titre = (TextView) this.findViewById(R.id.Titre_fav);
 
-        //String Titre_fav = "Histoires favorites";
-       // String Texte_fav = "Pas encore d'histoire favorites pour le moment!";
 
         if (v.getId() == R.id.fav1) {
-            histoire.setText(titre1);
-            Titre.setText(texte1);
+                histoire.setText(titre1);
+                Titre.setText(texte1);
+        }
+        if (v.getId() == R.id.fav2) {
+                histoire.setText(titre2);
+                Titre.setText(texte2);
+        }
+        if (v.getId() == R.id.fav3) {
+                histoire.setText(titre3);
+                Titre.setText(texte3);
+
         }
 
     }

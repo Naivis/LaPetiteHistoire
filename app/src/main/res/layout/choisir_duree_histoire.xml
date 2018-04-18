@@ -33,19 +33,8 @@
             android:orientation="horizontal"
             android:layout_gravity="right">
 
-            <ImageButton
-                android:id="@+id/imageButton1"
-                android:layout_width="70dp"
-                android:layout_height="51dp"
-                android:src="@drawable/logo_import_rouge_25" />
 
         </LinearLayout>
-
-    <Button
-        android:id="@+id/ToutesLesHistoires"
-        style="@style/BoutonClassique"
-        android:text="@string/toutesleshistoires"
-        android:layout_gravity="center"/>
 
     <Button
         android:id="@+id/histoire2min"

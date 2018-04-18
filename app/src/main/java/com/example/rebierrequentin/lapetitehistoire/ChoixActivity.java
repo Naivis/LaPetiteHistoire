@@ -34,8 +34,6 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void ajouterEcouteurs(){
-        Button boutonliste = (Button)this.findViewById(R.id.ToutesLesHistoires);
-        boutonliste.setOnClickListener(this);
 
         Button bouton2min = (Button)this.findViewById(R.id.histoire2min);
         bouton2min.setOnClickListener(this);
@@ -56,12 +54,6 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
-
-        if (v.getId() == R.id.ToutesLesHistoires) {
-
-            final Intent intentToutes = new Intent(ChoixActivity.this, FavorisActivity.class);
-            this.startActivity(intentToutes);
-        }
 
         if ((v.getId() == R.id.histoire2min) || (v.getId() == R.id.histoire5min) || (v.getId() == R.id.histoire10min) || (v.getId() == R.id.histoire30min)) {
             this.ecouteurExport();
@@ -126,8 +118,14 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
             }
 
             if (v.getId() == R.id.histoire30min) {
-                histoire.setText("lylylylylylylylyly");
-                Titre.setText("Titre 30");
+                String texte = "Histoire30_1";
+                String titre = "Titre30_1";
+
+                int titreH = getStringIdentifier(this, titre);
+                int texteH = getStringIdentifier(this, texte);
+
+                histoire.setText(texteH);
+                Titre.setText(titreH);
             }
         }
         TextView Titre = (TextView) this.findViewById(R.id.Titre);
@@ -145,9 +143,38 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
             SharedPreferences.Editor editor = preferences.edit();
             String titre = TextTitre;
             String texte = TextHistoire;
-            editor.putString("FAVORI1", texte);
-            editor.putString("FAVORI2", titre);
-            editor.apply();
+            String titre1 = preferences.getString("TEXTFAV1", "NO");
+            String titre2 = preferences.getString("TEXTFAV2", "NO");
+            String titre3 = preferences.getString("TEXTFAV3", "NO");
+
+            if((!(titre1.equals("NO"))) && (!(titre2.equals("NO"))) && (!(titre3.equals("NO")))){
+                Toast.makeText(ChoixActivity.this, "Favoris remplis ! ", Toast.LENGTH_SHORT).show();
+            }
+            else{
+                if((titre3.equals("NO"))){
+                    editor.putString("TEXTFAV3", texte);
+                    editor.putString("TITREFAV3", titre);
+                    editor.apply();
+
+                    Toast.makeText(ChoixActivity.this, "Favoris ajouté ! ", Toast.LENGTH_SHORT).show();
+                }
+                else{
+                    if((titre2.equals("NO"))){
+                        editor.putString("TEXTFAV2", texte);
+                        editor.putString("TITREFAV2", titre);
+                        editor.apply();
+
+                        Toast.makeText(ChoixActivity.this, "Favoris ajouté ! ", Toast.LENGTH_SHORT).show();
+                    }
+                    else{
+                        editor.putString("TEXTFAV1", texte);
+                        editor.putString("TITREFAV1", titre);
+                        editor.apply();
+
+                        Toast.makeText(ChoixActivity.this, "Favoris ajouté ! ", Toast.LENGTH_SHORT).show();
+                    }
+                }
+            }
         }
     }
 

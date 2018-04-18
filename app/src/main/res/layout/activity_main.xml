@@ -25,12 +25,6 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.113" />
 
-        <ImageButton
-            android:id="@+id/imageButton1"
-            android:layout_width="70dp"
-            android:layout_height="51dp"
-            android:layout_gravity="right"
-            android:src="@drawable/logo_import_rouge_25" />
 
         <LinearLayout
             android:layout_width="match_parent"
