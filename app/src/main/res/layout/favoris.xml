@@ -35,16 +35,19 @@
 
 
     <Button
+        android:id="@+id/fav1"
         style="@style/BoutonClassique"
         android:text="Titre 1"
         android:layout_gravity="center" />
 
     <Button
+        android:id="@+id/fav2"
         style="@style/BoutonClassique"
         android:text="Titre 2"
         android:layout_gravity="center" />
 
     <Button
+        android:id="@+id/fav3"
         style="@style/BoutonClassique"
         android:text="Titre 3"
         android:layout_gravity="center" />

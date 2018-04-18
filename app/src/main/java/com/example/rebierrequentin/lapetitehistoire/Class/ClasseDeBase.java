@@ -1,10 +1,10 @@
-package com.example.rebierrequentin.lapetitehistoire.Class;
+/*package com.example.rebierrequentin.lapetitehistoire.Class;
 
 /**
  * Created by Rebierre Quentin on 25/03/2018.
  */
 
-public class ClasseDeBase {
+/*public class ClasseDeBase {
 
     private int id_histoire;
     private String nom_histoire;
@@ -75,3 +75,4 @@ public class ClasseDeBase {
         this.fav_histoire = fav_histoire;
     }
 }
+*/

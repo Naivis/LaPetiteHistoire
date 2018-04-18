@@ -32,5 +32,7 @@ public class ExportActivity extends AppCompatActivity implements View.OnClickLis
         String destinatiare = dest.getText().toString();
 
         SmsManager.getDefault().sendTextMessage(destinatiare,null,titre,null,null);
+
+
     }
 }

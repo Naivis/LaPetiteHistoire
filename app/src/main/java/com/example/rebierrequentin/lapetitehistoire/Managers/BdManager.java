@@ -1,10 +1,10 @@
-package com.example.rebierrequentin.lapetitehistoire.Managers;
+/*package com.example.rebierrequentin.lapetitehistoire.Managers;
 
 /*
  * Created by Rebierre Quentin on 25/03/2018.
  */
 
-import android.content.ContentValues;
+/*import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -19,14 +19,11 @@ public class BdManager {
 
     private static final String TABLE_HISTOIRE = "table_vehicule";
 
-    private static final String COL_ID_VEHICULE = "id_vehicule";
-    private static final String COL_NOM_VEHICULE ="nom_vehicule";
-    private static final String COL_NIV_VEHICULE = "niveau_vehicule";
-    private static final String COL_NIV_ROUES = "niveau_roues";
-    private static final String COL_NIV_CARROSSERIE = "niveau_carrosserie";
-    private static final String COL_NIV_MOTEUR = "niveau_moteur";
-    private static final String COL_NIV_FREINS = "niveau_freins";
-    private static final String COL_NIV_BOITE = "niveau_boite";
+    private static final String COL_ID_HISTOIRE = "id_histoire";
+    private static final String COL_NOM_HISTOIRE ="nom_histoire";
+    private static final String COL_TXT_HISTOIRE = "txt_histoire";
+    private static final String COL_DUREE_HISTOIRE = "duree_histoire";
+    private static final String COL_FAV_HISTOIRE= "fav_histoiree";
 
     private SQLiteDatabase bdd;
 
@@ -51,12 +48,12 @@ public class BdManager {
         return bdd;
     }
 
-    public long insertVehicule(BdManager vehicule){
+    public long insertVehicule(BdManager histoire){
         //Création d'un ContentValues (fonctionne comme une HashMap)
         ContentValues values = new ContentValues();
         //on lui ajoute une valeur associé à une clé (qui est le nom de la colonne dans laquelle on veut mettre la valeur)
-        values.put(COL_ID_VEHICULE, vehicule.getId_vehicule());
-        values.put(COL_NOM_VEHICULE, vehicule.getNom_vehicule());
+        values.put(COL_ID_HISTOIRE, histoire.getId_hsitoire());
+        values.put(COL_NOM_VEHICULE, histoire.getNom_vehicule());
         values.put(COL_NIV_VEHICULE,vehicule.getNiveau_vehicule());
         values.put(COL_NIV_ROUES,vehicule.getNiveau_roues());
         values.put(COL_NIV_CARROSSERIE,vehicule.getNiveau_carrosserie());
@@ -68,7 +65,7 @@ public class BdManager {
         return bdd.insert(TABLE_VEHICULE, null, values);
     }
 
-    public int updateVehicule(int id, Vehicule vehicule){
+    public int updateVehicule(int id, Histoire histoire){
         //La mise à jour d'un livre dans la BDD fonctionne plus ou moins comme une insertion
         //il faut simple préciser quelle livre on doit mettre à jour grâce à l'ID
         ContentValues values = new ContentValues();
@@ -104,7 +101,7 @@ public class BdManager {
         c.moveToFirst();
 
         //On créé un véhicule
-        Vehicule vehicule = new Vehicule();
+        Histoire histoire = new Histoire();
 
         //on lui affecte toutes les infos grâce aux infos contenues dans le Cursor
         vehicule.setId_vehicule(c.getInt(0));
@@ -122,3 +119,4 @@ public class BdManager {
         return vehicule;
     }
 }
+*/

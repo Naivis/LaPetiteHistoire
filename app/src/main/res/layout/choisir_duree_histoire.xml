@@ -60,9 +60,9 @@
         android:layout_gravity="center"/>
 
     <Button
-        android:id="@+id/histoire15min"
+        android:id="@+id/histoire10min"
         style="@style/BoutonClassique"
-        android:text="@string/histoire15min"
+        android:text="@string/histoire10min"
         android:layout_gravity="center"/>
 
     <Button

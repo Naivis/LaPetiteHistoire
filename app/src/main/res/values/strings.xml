@@ -7,11 +7,496 @@
     <string name="toutesleshistoires">Les histoires</string>
     <string name="histoire2min">2 min</string>
     <string name="histoire5min">5 min</string>
-    <string name="histoire15min">15 min</string>
+    <string name="histoire10min">10 min</string>
     <string name="histoire30min">30 min</string>
     <string name="boutonPrecedent">&lt; Précédent</string>
     <string name="syncroHist">Synchroniser les histoire à minuit :    </string>
     <string name="histoireAlea">Histoire au hasard en secouant :     </string>
     <string name="partageHistoire">Autoriser le partage des histoires :     </string>
     <string name="histoire">blablabla</string>
+    <string name="titre_fav">Histoire Favorite</string>
+    <string name="texte_fav">Pas encore d\'histoire favorite ici!</string>
+
+
+
+
+    <!-- Titres -->
+    <string name="Titre2_1">Grand hôtel, petit oiseau</string>
+    <string name="Titre2_2">Des vacances quatre étoiles</string>
+    <string name="Titre2_3">La rentrée</string>
+    <string name="Titre5_1">Oyster Catcher</string>
+    <string name="Titre5_2">Que la magie scénique vous accompagne !</string>
+    <string name="Titre5_3">Orologio</string>
+    <string name="Titre10_1">Gaspar le hardi</string>
+    <string name="Titre10_2">La doublure du Père Noël</string>
+
+    <!--Histoires 2 min-->
+    <string name="Histoire2_1"> Le soleil caressa la joue de Fuku qui s’éveilla en bâillant. Elle s’étira, roula sur le côté, sentit le vide du bord du matelas et se cramponna aux draps ! Cette cascade matinale la réveilla complètement : elle sauta hors du lit. \n
+
+    — Maman ? Papa ? appela-t-elle en avançant dans la chambre.\n
+
+    Pas de réponse. La grande horloge au pendule en cuivre indiquait dix heures du matin. Déjà ! Étonnant que personne ne soit venu la réveiller… Elle pénétra dans la chambre à la tapisserie fleurie. Ici aussi, tout était vide… Peut-être étaient-ils descendus déjeuner ? Elle s’approcha de la fenêtre. Dehors, un beau soleil brillait. Près de la piscine, les chaises longues étaient vides, les petits déjeuners intacts… Le vent feuilletait les pages d’un magazine délaissé… \n
+
+    Inquiète, Fuku dévala les marches de marbre de l’escalier de l’hôtel Belle Brise. \n
+
+    Elle ne croisa personne, ses cris et appels restèrent sans réponse. Dans le hall, elle sonna plusieurs fois à la clochette de l’accueil mais personne ne se montra. \n
+
+    Fuku se rua aux portes qui donnaient sur les jardins et essaya de les ouvrir… Verrouillées ! Son cœur se mit à battre la chamade, elle sentit la panique la gagner. \n
+
+    Soudain, le bruit d’un battement d’ailes retentit derrière elle. Elle se retourna prudemment et se retrouva nez à nez avec… un colibri ! \n
+    L’oiseau, guère plus gros qu’une balle de ping-pong, noir comme du charbon et au long bec rouge comme un piment la regardait de ses petits yeux brillants… \n
+
+    — Un colibri ! hoqueta Fuku. Dis-moi, tu sais où sont mes parents ? \n
+
+    Le colibri partit comme une fusée. Fuku, s’élançant alors à sa poursuite, traversa des couloirs sombres, passa des réfectoires tranquilles, des cuisines et des grandes salles de bals, quand, enfin, le colibri s’arrêta face à une haute porte de verre… \n
+
+    — Quoi ? C’est là ? dit Fuku, légèrement essoufflée. Dans la serre ? \n
+
+    Le colibri pépia, et Fuku s’avança… Elle poussa doucement la porte… L’endroit était plongé dans une obscurité inquiétante. \n
+
+    — Joyeux anniversaire ! s’écria soudain un chœur de voix, dans un déluge de lumière. \n
+
+    C’étaient ses parents ! Et aussi les membres de l’hôtel et les autres vacanciers, réunis au milieu de fleurs sauvages et de ballons ! \n
+
+    Son anniversaire ! Bien sûr ! Un sourire se dessina sur le visage de Fuku, et, le colibri sur son épaule, elle partit d’un grand rire dans une envolée de papillons.
+</string>
+
+
+    <string name="Histoire2_2">Bachir regardait les rayons du soleil entrer par la fenêtre. Il faisait un temps magnifique, mais il était obligé d’attendre ici, dans l’ombre du grand réfectoire de l’internat du collège des Mimosas. \n
+
+    L’endroit était calme. Un souffle de vent poussait par moment la porte du bâtiment dans un grincement sourd. Une jeune surveillante attendait également, un peu plus loin. À part eux deux, le bâtiment était vide. Un à un, amis comme surveillants, tous étaient partis avec leur famille. \n
+
+    Où sont mes parents ? se demanda Bachir, m’ont-ils oublié ? Il serra contre lui son sac au dessin d’astronaute. \n
+
+    — Tu vas bien ? demanda la surveillante en s’approchant. Tu attends tes parents ? \n
+
+    — Oui, répondit-il tristement. Et toi ? \n
+
+    La jeune fille eut un sourire triste. \n
+
+    — Oh, je n’attends plus personne maintenant. Mais tu vas voir, je suis sûre qu’ils vont vite arriver ! \n
+
+    — J’espère, dit Bachir. Je commence à avoir faim ! \n
+
+    — Tu es un vrai estomac sur pattes, dis-donc ! Regarde dans le ciel, dit-elle pour changer de sujet, une étoile vient d’apparaître ! \n
+
+    — C’est vrai… Il n’est pas un peu tôt ? \n
+
+    — Ce doit être une étoile très matinale ! \n
+
+    — Elle est vraiment grosse, cette étoile, remarqua Bachir, fasciné. \n
+
+    — Oui. Et elle grossit… de plus en plus… Attention ! \n
+
+    La jeune fille sauta à terre mettant Bachir à l’abri alors que l’étoile s’écrasait dans la cour ! \n
+
+    La fumée se dissipa et Bachir et la jeune fille se relevèrent, tout poussiéreux, pour se retrouver devant… une fusée ! Sa porte s’ouvrit, et deux cosmonautes en sortirent. Bachir les reconnut aussitôt. \n
+
+    — Maman, Papa ! s’exclama-t-il. \n
+
+    — Quel retard ! dit Maman. Des embouteillages tout autour de Jupiter ! \n
+
+    — Oui, confirma Papa. Nous avons dû prendre une pluie d’étoiles filantes, et nous voilà ! \n
+
+    — Tu viens Bachir ? Les mers gazeuses de Trappist-1e sont les plus belles à cette période de l’année, toi qui aime tant te baigner ! \n
+
+    — Bien sûr ! s’exclama Bachir en attrapant son sac à dos. Il se retourna vers la jeune fille. Tu viens avec nous ? lui demanda-t-il. \n
+
+    — Pourquoi pas, dit-elle dans un sourire. Je n’ai jamais vu la mer ! \n
+
+    Et tous les quatre, ils partirent vers les étoiles.</string>
+
+
+    <string name="Histoire2_3">
+        Thomas a mis ses jolis souliers neufs. Normal, c’est la rentrée !
+
+Un peu plus tôt, lorsque le réveil a sonné, Thomas s’est levé d’un bond.
+
+Il faut dire que cela faisait déjà une bonne heure qu’il regardait, comme hypnotisé, les chiffres de son radio-réveil défiler, minute après minute, en se demandant si une faille spatio-temporelle allait l’engloutir pour l’emmener dans un autre monde.
+
+Thomas a peur. Juste un peu. Mais la pétoche quand même.
+
+À chaque rentrée, c’est la même chose. Le trac, la trouille l’étreignent et lui triturent les tripes ! Oui, il en a mal au ventre !
+
+Thomas se regarde dans le miroir, remet une dernière fois de l’ordre dans ses cheveux et attrape son cartable. Il sourit. Un sourire forcé.
+
+— Allez, Thomas, secoue-toi, ça va bien se passer ! se sermonne-t-il.
+
+Sur le chemin de l’école, la tension monte.
+
+Emma sera-t-elle toujours aussi chipie et Anthony aussi bagarreur ?
+
+Y aura-t-il encore de cet infâme gratin de chou-fleur qui sent des pieds à la cantine ?
+
+Va-t-il réussir à trouver sa place dans cette immense cité scolaire ?
+
+Le directeur sera-t-il aussi dur que dans son ancienne école ?
+
+Et les punitions ! Ah là là ! Il va falloir faire attention !
+
+Mais c’est déjà l’heure de se mettre en rang. Par deux. En silence.
+
+Lorsque Thomas prend la parole, tout le monde est assis. C’est parti !
+
+— Bonjour, je m’appelle Thomas et je suis votre nouveau maître cette année !
+    </string>
+
+
+
+    <!-- Hisstoires 5 min -->
+    <string name="Histoire5_1">Ce grand pays qui se trouve tout en bas de la carte d’Afrique, c’est le pays de Mandela, et c’est là que se déroule mon histoire, avec de bien curieux animaux qu’on ne trouve nulle part ailleurs… \n
+
+En cette belle après-midi de janvier, sur la plage de Sedgefield, un touriste français caché derrière une haie, observait un oyster-catcher. \n
+L’oyster-catcher est un oiseau qui, comme son nom l’indique, se nourrit de ces bivalves que l’on trouve dans les anfractuosités des rochers. Le touriste savait qu’il est interdit de déranger l’oiseau et de toucher à ce qui constitue son habitat et son alimentation. Mais il avait repéré l’animal la veille, et il était revenu avec ses jumelles pour pouvoir l’observer discrètement. Juste l\’observer. \n
+L’oyster-catcher était vieux, très vieux ! \n
+Si les oiseaux vieillissaient comme les hommes, celui-ci aurait eu un plumage entièrement blanc. Mais les oiseaux ne vieillissent pas comme les hommes. C\'est pourquoi les plumes de celui-ci étaient d’un joli brun brillant, ses pattes d’un superbe orangé, et seul son bec, orange lui aussi, avait triste allure à force d’ouvrir les huîtres de ses déjeuners. \n
+L\’oyster-catcher avait déjà péché quatre huîtres, et la cinquième serrait avec vigueur ses valves afin d\'empêcher le prédateur de l\'ouvrir pour la dévorer. Après de longs efforts suivis avec intérêt par le touriste hilare, l\'oiseau vint à bout de sa proie.
+Il allait avaler le délicieux mollusque quand un mouvement dans les feuillages le fit sautiller à l’abri des rochers. Le touriste se rencogna dans son buisson. \n
+L’oyster-catcher tordit le cou à droite et à gauche pour vérifier qu’il n’était pas en danger, puis il se hâta vers l’huître béante qui commençait à se racornir au soleil. Il la goba puis hoqueta et recracha dans le sable un petit objet sphérique… \n
+Une perle ? \n
+Était-ce vraiment une perle ? \n
+Et l\'homme grogna d’indignation quand le volatile, ayant tourné et retourné ce corps étranger, sans aucun intérêt pour lui, l’envoya rouler dans l’eau d’un coup de bec. Puis une idée lumineuse lui vint à l’esprit. Il sortit de son observatoire et se dirigea vers l’oiseau qui ouvrait ses ailes pour s\’envoler. \n
+— Tout doux, l’ami, je ne te veux aucun mal, fit-il en français puis en anglais puisque, après tout, en Afrique du Sud, on s’exprime en anglais. \n
+L’oiseau laissa l’homme approcher et : \n
+— Bonjour, monsieur le touriste ! fit-il dans un français impeccable. \n
+L’homme faillit en mourir de saisissement. S\'il espérait être compris, il ne s’attendait pas à recevoir une réponse !... \n
+L’oiseau lui expliqua qu’il parlait le français aussi couramment que l’anglais. Qu\'il pratiquait aussi l’afrikaans, évidemment, ainsi que l’allemand et l’espagnol. Il était polyglotte, quoi ! \n
+Émerveillé, le touriste commença par féliciter l’oiseau de ses talents, puis il lui proposa ses services : avec un bec en aussi triste état, il devait souffrir, le malheureux, en ouvrant ses huîtres. Qu’il se contente de les pêcher ! Lui, Fernand Delaroche, s’engageait à les lui ouvrir en échange de presque rien : il se contenterait des petites choses rondes et blanches qui se trouvaient parfois dans les coquilles et qui amuseraient ses enfants. \n
+L’oiseau fit remarquer, avec une grande honnêteté, que très peu d’huîtres contenaient les curieuses billes qui avaient séduit son observateur ! \n
+Qu’importe ! Fernand était disposé à courir le risque. Il sortit un solide Opinel, se précipita sur les trois huîtres qui gisaient sur le sable, et les ouvrit l’une après l’autre avec dextérité. Pas de perles, hélas, mais l’oiseau les goba allègrement puis alla en pêcher une douzaine d’autres. Fernand les ouvrit avec le même enthousiasme suivi de la même déception. Puis l’oiseau déclara qu’il n’avait plus faim... ! Heureusement, il avait des congénères aussi âgés que lui et aussi mal lotis côté bec. Fernand serait-il d’accord pour... \n
+Évidemment ! \n
+Une dizaine d’oiseaux arrivèrent aussitôt de toutes parts. \n
+Quand ils furent rassasiés, pourtant, il fallut bien se soumettre à l’évidence : aucune des huîtres ne contenait de perle. \n
+Qu’à cela ne tienne ! Les jours se suivent et ne se ressemblent que rarement ! Un rendez-vous fut donc fixé pour le lendemain, et Fernand regagna son hôtel, les mains endolories, mais très satisfait de sa journée. \n
+
+Le lendemain, les oiseaux attendaient sur la plage, chacun devant son petit tas d’huîtres fraîchement sorties de l’eau. Fernand se mit aussitôt à l’ouvrage. Rien dans le premier tas d’huîtres ; rien dans le second, ni dans le troisième, ni, hélas, dans le quatrième. Fausse joie en écartant les valves d’un des coquillages du cinquième tas, rien dans les six derniers. \n
+Un peu découragé et les mains en sang, Fernand s’apprêtait pourtant à donner un autre rendez-vous à ses nouveaux associés quand un ranger, qu’il n’avait pas vu venir, lui mit la main au collet : \n
+— Vous n’avez pas lu le panneau ? demanda-t-il sévèrement. Il est strictement interdit de pêcher des huîtres dans ce secteur protégé. \n
+— Mais... protesta Fernand. \n
+Et il se lança dans le récit détaillé de son aventure. \n
+— Des oiseaux qui parlent ? Vous vous fichez de moi ? \n
+Le ranger sortit un carnet et verbalisa sans pitié le pauvre Fernand : infraction à la pêche, outrage à fonctionnaire... Inutile de dire que la note fut salée. \n
+
+Les oiseaux s’étaient envolés dès l’intervention de l’homme à l’uniforme. Rassemblés plus loin, à l’abri des regards, ils riaient tout leur soûl. On pouvait décidément faire avaler n’importe quoi à ces humains aussi stupides que cupides ! \n
+
+Quand la plage fut de nouveau déserte, les oiseaux revinrent la débarrasser des valves vides. La perle fut repêchée ; quelques huîtres fraîches se trouvèrent bientôt près d’elle, sur le sable, et dix des onze oiseaux retournèrent se cacher. \n
+
+— En voici encore « un » avec des jumelles, fit le onzième au bout de quelques minutes. Souhaitez-moi bonne chance, les gars. \n
+Et il commença à s’acharner sur une huître...</string>
+
+    <string name="Histoire5_2">La sonnerie retentit. Enzo embrassa vivement ses parents et courut se mettre en rang. Aujourd\'hui était sans doute le plus beau jour de sa vie : il entrait enfin au collège, et mieux, au Collège Leonardi d\'art dramatique, le meilleur établissement de formation d\'acteurs. Le rêve d\'Enzo depuis toujours. Son professeur principal, un homme d\'une trentaine d\'années, grand et mince, s\'approcha du rang et fit signe aux élèves de le suivre. Bientôt, les premières années s’arrêtèrent devant une large porte, semblable à celle des studios de cinéma avec la même lumière rouge et le même panneau lumineux « On Stage ». Lorsque les deux s\'éteignirent, ils entrèrent. L’amphithéâtre était absolument magnifique. Des dorures partout, des sièges de velours et bien évidemment, une scène incroyable. Enzo en avait la bouche grande ouverte d\'admiration et d\'excitation. Lorsque tous les élèves furent installés, le directeur apparut. C\'était un homme de forte carrure dans un costume gris impeccable. \n
+
+— Bienvenue à tous ! Pour ceux qui ne le sauraient pas encore, je suis Archibald Leonardi, fondateur et directeur de cette école. En effet je suis le premier à avoir cru en la capacité des plus jeunes à être de formidables comédiens et, par conséquent, le premier à avoir dédié un collège à l\'activité théâtrale. Bref, tout ça pour dire que je suis heureux, cette année encore, de vous voir si nombreux, sélectionnés pour votre imagination et votre passion. Sachez toutefois que seuls les meilleurs parviendront à réaliser leur rêve. Le travail ne suffit pas, il faut du talent, de la volonté ! La scène ne vous fera aucun cadeau, vous devez apprendre à la connaître, à la dompter en toutes circonstances ! Vous devez être capables de tout jouer, de tout vivre, de transcender vos émotions, de faire vibrer le public ! Sur ce, jeunes aventuriers du monde de l\'art, je vous souhaite une merveilleuse année de création au Collège Leonardi d\'art dramatique ! Que la magie scénique vous accompagne !  \n
+
+Tous les élèves reprirent en cœur la devise de l\'école et applaudirent. Le cœur d\'Enzo battait la chamade. L\'amphithéâtre se vida peu à peu et de nouveau, les premières années suivirent leur professeur jusqu\'à une porte de studio. Les élèves entrèrent et s\'installèrent dans des fauteuils de théâtre face à une petite scène plongée dans le noir. Leur professeur, sur l\'estrade, prit enfin la parole. \n
+
+— Bonjour ! Je suis Hervé Morin et pour apprendre à mieux vous connaître, je vous propose de faire quelques improvisations sur le thème de votre choix. Je vais vous appeler deux par deux par ordre alphabétique, vous aurez une minute pour vous concerter et décider d\'un thème et le même temps pour nous révéler votre talent. Que la magie scénique vous accompagne ! \n
+
+Il prit sa liste et appela les deux premiers : Enzo Andel et Lucie Argo. Les deux élèves se levèrent et s\'avancèrent vers la scène. \n
+
+— Ah, j\'oubliais ! Je veux voir votre talent mais aussi toute l\'étendue de votre imagination alors, s\'il vous plaît, pas de situations quotidiennes et banales. Faites-nous rêver !  \n
+
+Enzo était un peu intimidé. Il adorait inventer des histoires, se prendre pour un héros, vivre de fabuleuses aventures mais les jouer devant un public, c\'était différent. Lucie s\'approcha de lui et ils commencèrent à discuter de leur thème en chuchotant. Après une minute de concertation, ils s\'étaient mis d\'accord. Ils montèrent sur scène, Lucie prit une chaise en coulisse et ils commencèrent. Enzo s\'approcha de ce qui devait être un trône, d\'un pas traînant qu\'il imaginait être celui d\'un gros nain barbu, tandis que Lucie se grandissait pour se donner la prestance d\'une reine des elfes. Mais alors qu\'Enzo s\'apprêtait à parler, il sentit tous les muscles de son corps se contracter et peu à peu rétrécir et s\'épaissir. Son ventre se gonfla, ses cheveux et une barbe touffue poussèrent d\'un seul coup, ses vêtements devinrent plus lourds et il se retrouva bientôt transformé en véritable nain. Il se tourna les yeux écarquillés vers sa partenaire. Elle aussi s\'était métamorphosée. Ses cheveux étaient à présent blonds et raides, ses oreilles s\'étaient étonnamment allongées, elle portait un magnifique diadème en argent et la chaise sur laquelle elle était assise était à présent un trône majestueux taillé dans l\'écorce d\'un arbre. Le décor avait également changé. Ce n\'était plus une petite salle de théâtre, c\'était un arbre, un arbre immense où de nombreux elfes vaquaient à leurs occupations. La voix du professeur résonna, lointaine, comme un écho. \n
+
+— Action !  \n
+
+Alors, sans réfléchir, Enzo joua. Il se présenta comme Elgrom, ambassadeur des nains venu offrir un présent à Lindorië, reine des hauts-elfes. Lucie, un peu abasourdie, se laissa entraîner à son tour. Elle le remercia et l\'invita à se joindre à sa table pour dîner. Une fois installés à une table apparue comme par magie, Enzo attrapa une petite boîte accrochée à sa ceinture et la tendit à Lucie. Elle l\'ouvrit et découvrit un collier de diamants étincelants fabriqué, selon Elgrom, par les meilleurs orfèvres du royaume nain. Lucie l\'essaya mais, alors que le métal froid effleurait sa peau, elle s\'évanouit. Le bijou était empoisonné, c\'était un piège.  \n
+Enzo fut pris de panique : il se trouvait à présent entouré de milliers d\'archers, leurs arcs bandés vers lui. Il balbutia qu\'il ne comprenait pas, qu\'il… Deux elfes étaient penchés sur Lucie. Enzo allait s\'approcher pour s\'assurer qu\'elle allait bien quand il reçut une flèche en plein cœur. Une douleur aigüe lui arracha un hurlement et il s\'effondra sur le sol. \n
+
+Lorsqu\'il ouvrit les yeux, il était redevenu un enfant de onze ans dans une salle de théâtre et tous les élèves applaudissaient. Cette année s\'annonçait bien différente et bien plus dangereuse que ce qu\'il avait imaginé.
+    </string>
+
+
+    <string name="Histoire5_3">
+    — Psst, Petite... ! \n
+Marie continue d’avancer et regarde droit devant elle. \n
+— Psst ! \n
+Mais qui l’appelle ? Et d’où vient ce sifflement ? \n
+Elle tourne la tête. Personne. Rien d’autre que cette petite pluie froide qui mouille sans bruit ses lunettes et la capuche de son anorak...  \n
+— Oh et puis je n\'y vois rien avec cette capuche ! se dit-elle en la rabattant sur ses épaules. \n
+
+Elle regarde autour d’elle. Toujours rien. La voûte du pont sous la voie ferrée suinte et sent l’humidité. Marie frissonne. Mais pourquoi donc a-t-elle pris ce chemin seule ? \n
+Elle l’a emprunté une fois déjà, mais c’était avec son grand-père. Il fauchait les orties devant elle avec sa canne et elle lui avait dit que c’était comme un « chemin d’aventure ». \n
+
+— Psst ! \n
+
+Elle tourne à nouveau la tête. Vite ! Remettre sa capuche. S\'y cacher. Ne plus voir. \n
+L\'homme est là, immobile, au sortir du pont. Un oiseau, perché sur son bras, hoche doucement la tête dans la bruine qui patine ses couleurs. \n
+
+— Bonjour monsieur, chuchote-t-elle timidement. \n
+
+Parler la rassure, même si c’est à voix basse. C\'est un peu comme si Maman était là et qu\'elle ne l\'avait pas laissée partir à l\'école toute seule. Ou comme si grand-père... L\'homme lui ressemble un peu avec cette barbe hirsute qui lui mange le visage. Il est chaussé de bottes et porte une vareuse, comme le marin sur la couverture d\'un vieux livre de lecture que Maman a retrouvé un jour au grenier et qu’elle lui a donné. \n
+
+— Bonjour petite. Je m\'appelle Orologio, et toi qui es-tu ? \n
+
+Les lèvres de l’homme n\'ont pas bougé, pas plus que sa barbe ni même le bout de son nez. Mais alors, qui a parlé ? \n
+
+— Coucou petite. Tu ne m\'as pas entendu ? Tu t\'appelles comment ? \n
+
+Le visage de l\'homme est toujours aussi figé et Marie tourne alors le regard vers l’oiseau qui continue de hocher la tête. \n
+
+— Je m\'appelle Marie, lui dit-elle. C\'est toi qui t’appelles Orologio ? \n
+— Et qui veux-tu que ce soi ? coasse l\'oiseau d\'une voix pincée. Tu n\'as quand même pas cru que c\'était ce grand bonhomme sur qui je suis perché ? Tu sais ce que cela veut dire au moins Orologio ? \n
+— Oui. Grand-père me l\'a appris. Ça veut dire horloge en italien. C’est un drôle de nom pour un oiseau. \n
+— Orologio, Orrrollodjio.... Je suis l’oiseau du temps, petite Marie. \n
+
+Marie n’a plus vraiment peur à présent, ni de l’homme-statue, ni de cet oiseau étrange. Mais elle veut encore raisonner. Après tout, elle a fêté il y a peu ses sept ans et Grand-père lui a dit que c’était l’âge de raison. L’oiseau n’est peut-être qu’une marionnette et l’homme, un ventriloque. Elle en a vu déjà à la télévision, un après-midi de pluie précisément. \n
+Mais que ferait un ventriloque ici, sous ce pont ? \n
+
+L’oiseau la regarde bizarrement et Marie a l\'impression qu\'il lui sourit. Pourtant, quand il est content, un oiseau ça chante et ça fait des trilles. Elle n’a jamais entendu dire qu’il puisse aussi sourire... Ni parler d\'ailleurs. Sauf les perroquets. Mais des perroquets, elle en a déjà vus et elle sait bien que cet oiseau-là n\'en est pas un. Il en a les couleurs mais il ressemble plutôt à un hibou. Il devrait hululer au lieu de parler. Et voilà que Marie se met à rire, parce qu’elle se souvient de Grand-père qui souffle dans ses mains jointes pour imiter l’appel du hibou. \n
+
+— Tu es une marionnette ? demande-t-elle? \n
+— Une marionnette ! Qu\'est-ce que tu vas chercher là ? Je suis l\'oiseau du temps, je te l’ai déjà dit, répond-il en s’étirant. \n
+
+Est-ce parce qu’il a déployé ses ailes que Marie le trouve soudain plus grand et qu’il lui semble que l’homme rapetisse ? Il fond, comme un bonhomme de neige au soleil, ou plutôt il se dissout dans la bruine jusqu’à devenir une sorte de bonhomme de brouillard. \n
+
+— Que se passe-t-il ? s\'écrie-t-elle... Le monsieur devient transparent ! Mais... c’est Grand-père… \n
+Elle vient juste de le reconnaître. \n
+— N\'aie pas peur, lui répond l\'oiseau en venant se poser sur son épaule. \n
+
+Marie s’étonne de le sentir si léger. \n
+— Je reste avec toi tu sais, murmure-t-il à son oreille. Il me l\'a demandé. \n
+
+La pluie s\'est arrêtée et, dans ce petit peu de brume qui flotte encore là où Grand-père a disparu, un éclat de soleil esquisse comme la chaleur d’un sourire. \n
+— Grand-père... appelle-t-elle, Grand-père ! \n
+
+Mais il n\'y a plus à présent qu\'un silence lourd dans lequel elle étouffe et se débat avant d’ouvrir enfin les yeux. \n
+
+Il fait nuit dans la chambre. Maman est là, à côté du lit. Elle tient une lampe à la main qui sculpte son visage où brillent quelques larmes. \n
+— Maman, il est parti où Grand-père ? \n
+— Chut, répond sa maman en effleurant son front de la main. Je te l’ai déjà dit ma chérie, il était très malade. Il est parti dans le ciel maintenant, au milieu des étoiles… et aussi dans la brume qui caresse les arbres des bois où tu aimais aller avec lui... \n
+— Et il habite dans ton cœur et dans tes rêves, lui chuchote l’oiseau. Moi, je reste avec toi. Il me l’a demandé. \n
+
+Marie sourit et se rendort en murmurant ce nom que sa maman ne distingue pas bien : « Orologio ». \n
+    </string>
+
+
+    <!--Histoires 10/15 min -->
+    <string name="Histoire10_1">
+
+        Il était une fois un grand royaume perdu dans les brumes où, depuis de longues années, régnait un vieux roi. Il avait un fils, Gaspar, qui devait lui succéder et devenir roi à son tour. Le prince Gaspar avait quinze ans. Il était si dégourdi et turbulent que plus tard, et je vais vous raconter pourquoi, on l’appellera Gaspar le Hardi. \n
+
+Chaque année, juste avant le printemps, le roi donnait une grande réception dans son château. Les gens du royaume et les invités des alentours, revêtus de leurs plus beaux habits, dansaient toute la nuit sous les lustres de cristal où brillaient des centaines de bougies, au rythme des violons de l’orchestre. \n
+
+— Allez, les enfants, préparons-nous pour le bal, dit la vieille reine. Dépêchez-vous, sortez vos tenues de cérémonie, que l’on recouse les déchirures, que l’on remplace les boutons perdus. Portez-moi tout ça chez les couturières. Nous devons faire honneur à sa majesté et à nos invités ! Toi aussi, Gaspar ! \n
+
+Gaspar était amoureux. \n
+ \n
+*** \n
+ \n
+Il aimait une princesse du haut de la montagne, là où le ciel était toujours clair, où le vent chassait les nuages et où le froid sec de l’hiver mettait du rose aux joues des enfants et des princesses. Clairette était belle et rêvait chaque nuit de Gaspar. Elle le voyait voler dans les étoiles sur une licorne aux ailes bleues, s’approcher d’elle, la prendre dans ses bras et lui dire des mots doux et gentils. Gaspar lui envoyait des petites lettres secrètes, des poèmes, des pétales de fleurs, des trèfles à quatre feuilles, des ailes de libellules et des plumes toutes douces. Un langage secret qui voulait dire « tu es une fleur, la plus rare, je volerai vers toi et nous construirons ensemble notre nid... » \n
+
+Le père de sa douce princesse régnait sur un tout petit royaume, si petit que du haut de sa tour il pouvait l\'apercevoir tout entier. Un petit roi sans ambition de guerres ou de conquêtes, qui désirait simplement que ses sujets soient heureux. Et pour cela, il leur avait légué toutes ses terres, ses maisons, ses bœufs, ses charrettes et ses chevaux. \n
+
+De son côté, le vieux roi avait d’autres ambitions pour son fils Gaspar. Il avait choisi pour lui la princesse d’un puissant royaume et ne voyait donc pas d’un bon œil son amour pour Clairette… \n
+
+— Essaie un peu de comprendre, garnement, avait-il dit à Gaspar, c’est une alliance pour agrandir nos terres, pour éviter des guerres. \n
+
+Gaspar se fichait bien du royaume, des alliances, des terres à conquérir et des guerres… Seule comptait pour lui la conquête du cœur de Clairette. \n
+
+Aussi, il avait décidé de jouer un tour au roi, à la cour et à tous les invités… \n
+ \n
+*** \n
+ \n
+Il savait que Clairette et son père étaient invités, comme chaque année, au bal du roi. \n
+
+— Alors, Gaspar, ta tenue de cérémonie est-elle prête ? \n
+
+— Ne vous inquiétez pas, mère, disait-il à la reine, les servantes l’ont donnée à la couturière, elle s’en occupe. \n
+
+Et quand elle lui demandait le nom de la couturière, il disait qu’il l’avait oublié... \n
+
+En fouillant dans les penderies du château, il avait trouvé une grande boîte en carton, plate et un peu poussiéreuse, qui contenait les vieux habits de cérémonie d’un ancien monarque du royaume. Le manteau noir, les bottes et le chapeau, noirs aussi, du roi Ludovic Premier. Un méchant roi, mort depuis cent ans, mais que personne n’avait oublié… Quand les enfants n’étaient pas sages, ne faisaient pas leurs devoirs ou refusaient de manger leur soupe, les mamans disaient : « Si tu continues, j’appelle le roi Ludovic… » \n
+
+Gaspar avait pris la boîte sous le bras et s’était enfermé dans sa chambre. Il avait essayé la tenue et avait regardé, satisfait, son reflet dans l’armoire à glace. \n
+
+Si je mets un foulard sur mon visage, se disait-il, personne ne me reconnaîtra !  Je serai Ludovic Premier, comme celui des gravures du salon. Noir, droit, autoritaire et mystérieux.  Rien qu’en me voyant, toute l’assistance sera effrayée… et je pourrai alors mettre mon plan à exécution. \n
+ \n
+ *** \n
+ \n
+Arriva le jour du bal. La réception battait son plein, l’orchestre jouait des valses et des musiques douces, les invités entraient par le grand portail d’apparat, descendaient les escaliers, s’inclinaient devant le roi qui marmonnait quelques mots pour les accueillir et allaient danser après avoir dévoré des gâteaux et bu du champagne. Voilà une soirée réussie, pensait le roi en contemplant la nombreuse assemblée. \n
+
+Clairette et son père avaient suivi la foule des invités et à leur tour s\'étaient inclinés devant le roi. \n
+
+— Le roi de la montagne ! avait annoncé le chambellan pour le présenter au roi, qui resta froid et indifférent. \n
+
+— Et voici la princesse Clairette de la montagne, avait ensuite clamé le gentilhomme. \n
+
+Elle se sentait toute émue d\'avoir devant elle le père de Gaspar. \n
+
+Il la regarda quelques instants sans dire mot, puis poussa un petit soupir qui semblait dire : « Dommage que cette belle princesse ait un père si peu ambitieux... » \n
+
+Comme il se doit, elle fit la révérence, prit la main de son père et murmura à son oreille : \n
+
+— Papa, tu as vu le prince Gaspar ? Comme il est beau... \n
+
+— C\'est bien vrai ma fille, acquiesça son père.  Mais ne rêve pas, Clairette, un si puissant royaume ne donnera pas son héritier à la fille d\'un roi comme moi. \n
+
+Il lui serra la main et regarda par les grandes fenêtres, sa montagne enneigée qu\'on apercevait au loin. \n
+
+Alors que la réception battait son plein, Gaspar attendait en haut de l’escalier, dans l’ombre du couloir, le moment d‘agir. Son regard allait de la foule qui dansait gaiement, au roi, son père en grande discussion avec la reine, et jusqu’au fond, assis sur un divan de velours, Clairette et son père qui admiraient les danseurs tournoyant dans des valses qui n’en finissaient pas. \n
+
+Il inspecta sa tenue, tout était parfait : on aurait dit le vrai roi Ludovic Premier. C’est Clairette qui va être surprise, pensa-t-il en l’observant. \n
+
+Je compte jusqu’à trois et j’y vais. Il ajusta le foulard sur son visage. À trois, il sortit de l’ombre… \n
+ \n
+*** \n
+ \n
+Quand le roi Ludovic Premier apparut en haut des marches, l’orchestre arrêta soudainement de jouer, les violonistes laissèrent tomber leurs archets, les doigts du pianiste firent une drôle de gamme et puis plus rien… Les danseurs se figèrent. L’assistance se tourna d’abord vers les musiciens. Puis les convives suivirent leurs regards et découvrirent ce qui provoquait leur émoi. \n
+
+— Oh ! mon Dieu…, s’écria la foule, un revenant ! Le roi Ludovic… un fantôme, au secours...! \n
+
+Affolés, les gens se sauvèrent par les portes, les fenêtres, certains se jetèrent des balcons et tombèrent dans le fossé qui entourait le château dans de grands plouf… \n
+
+Les quelques personnes qui étaient restées auprès du roi observaient, stupéfaits, Ludovic descendre lentement les marches, saluer la petite foule recroquevillée derrière les colonnes et le buffet, et se diriger tranquillement vers la princesse Clairette… \n
+
+Arrivé devant elle, il baissa un peu son foulard et lui chuchota doucement : \n
+
+— C’est moi, Gaspar. N’aie pas peur et laisse-toi faire ! \n
+
+Personne d’autre n’entendit ses paroles. Il la prit par la main, monta en courant les escaliers avec Clairette et ils disparurent dans la nuit. \n
+
+— Seigneur, s’écria le roi, voilà que le fantôme de Ludovic a enlevé la princesse Clairette ! Mes gardes, vite, mes chevaliers, mes arquebusiers, courez, courez et empêchez ce revenant de l’emporter en enfer ! \n
+
+Et ils parcoururent les landes, la forêt, les chemins et les ruelles sans trouver trace de quiconque. \n
+
+Pendant ce temps, Gaspar s’était réfugié sous l’escalier avec Clairette. Il avait enlevé les habits de Ludovic et revêtu sa propre tenue. \n
+
+— Voilà ce que nous allons faire, expliqua-t-il à Clairette à la fois intriguée et émue. \n
+
+Elle le regardait, écoutait ses paroles, et se sentait toute chaude de bonheur, légère comme un petit nuage. Qu’allait-il se passer, maintenant ? \n
+ \n
+ *** \n
+ \n
+La salle de réception était sens dessus dessous, les bouteilles renversées, les chaises cassées, les nappes froissées. Le roi, entouré de quelques sujets, se lamentait. \n
+
+— Quel drame ! disait-il. Et comme tout le monde, il attendait, inquiet et désemparé. \n
+
+À cet instant même, la petite porte sous l’escalier grinça, comme un violon enroué. Elle s’ouvrit doucement et Gaspar s’avança en tenant Clairette par la main. \n
+
+— Dieu soit loué, s’écria le roi, mon fils Gaspar a délivré Clairette ! Faites sonner les trompettes et les cloches de toutes les églises du royaume ! \n
+
+ Un peu plus tard, les gardes, les chevaliers, les arquebusiers, crottés, sales, griffés par les broussailles se firent annoncer au roi. \n
+
+— Majesté, nous avons parcouru le parc du château, les rues de la ville, les collines. Nous avons suivi les berges de la rivière jusqu\'aux écluses, exploré les grottes, sondé les meules de foin, inspecté les diligences et nous n’avons trouvé ni le roi Ludovic, ni Clairette. \n
+
+— La seule chose que nous ayons découverte, Majesté, ce sont les habits du roi Ludovic, tout près d\'ici, sous l’escalier. Il a dû repartir tout nu d’où il venait… \n
+
+Le roi se lissa la barbe et réfléchit quelques instants. On voyait bien qu’il se demandait si tout cela n’était pas en réalité une farce. Gaspar est un sacré chenapan, songeait-il. Tel que je le connais, il est bien capable d\'avoir manigancé tout cela. \n
+
+Dans ses yeux, Gaspar et Clairette virent passer comme un nuage de tendresse. \n
+
+Puis il dit d’une voix forte : \n
+
+— Annoncez au royaume le mariage prochain de mon fils bien aimé et de la princesse Clairette ! \n
+
+Et dans sa barbe, il murmura doucement : « Et tant pis pour les alliances et les terres nouvelles… » \n
+
+Et c’est à compter de ce jour que, pour tous les gens du royaume, Gaspar devint « Gaspar le Hardi ». \n
+    </string>
+
+    <string name="Histoire10_2">
+Il était une fois, au Pôle Nord, le Père Noël. \n
+Le Père Noël était très âgé et commençait à être fatigué. Ses rhumatismes et son embonpoint prononcé l\'empêchaient même de descendre dans certaines cheminées, si bien qu\'il était inquiet pour le Noël à venir. Il songeait sans cesse au mal qu’il aurait à assurer sa tournée. Son anxiété était telle, qu\'il se surmena et tomba malade, à un mois à peine de la grande nuit. \n
+La distribution de cadeaux était compromise, Noël était en grand péril ! Il fallait de toute urgence trouver une solution. \n
+
+Un petit groupe de lutins eut alors une idée farfelue pour sauver Noël : ils allaient trouver quelqu\'un capable de jouer le Père Noël le temps d\'une nuit, à la manière des doublures de cinéma ! \n
+Leurs visages réjouis et enthousiastes eurent tôt fait de convaincre le Père et la Mère Noël. C\'était la meilleure solution pour soulager le Père Noël, sans compromettre le bon déroulement de la fête. \n
+
+Les lutins se mirent au travail.  \n
+La première étape consistait à sélectionner des candidats potentiels dans la liste des enfants sages devenus adultes. Les archives n\'ayant jamais été classées, il y en avait partout. Des centaines de milliers de listes de noms dans un désordre inimaginable. La tâche s\'annonçait difficile, mais les lutins, toujours optimistes, étaient bien déterminés à tout faire pour trouver la perle rare. Ils retroussèrent leurs manches et se lancèrent à l\'assaut des montagnes de listes. \n
+Il leur fallut deux jours entiers pour tout remettre en ordre et retrouver la liste des enfants sages susceptibles de correspondre au profil recherché. \n
+
+Enfin, ils obtinrent une pré-sélection. Chaque lutin y allait de son commentaire. \n
+
+— Théo Gredin, le pauvre. Il porte très mal son nom, c\'est un garçon adorable. \n
+— Elisa Dupuis ! Je me souviens d\'elle. Son cadeau s\'était cassé dans la hotte, ça avait été une véritable catastrophe. \n
+ \n
+*** \n
+ \n
+Finalement, au bout de quatre jours de relecture, d’élimination, de sélection à la recherche du profil idéal, il ne restait plus qu’une douzaine de prétendants. Le Père Noël examina attentivement leurs profils et donna son accord. \n
+ \n
+A présent, il s’agissait d’envoyer un courrier aux candidats. C’était la seconde étape. \n
+L\'annonce était très brève : \n
+
+« Recherche cascadeur pour assister le Père Noël dans sa tournée. \n
+Discrétion exigée. Pour plus de renseignements, contacter le Père Noël au Pôle Nord \n
+ou envoyer un mail à lutinsduperenoelofficiel@polenord.com.» \n
+Le message fut relu, puis validé par la Mère Noël. Les lutins l’envoyèrent dans de jolies enveloppes vertes et rouges. \n
+
+Il ne restait plus qu\'à espérer que les jeunes hommes répondraient vite. \n
+Il ne restait que vingt-et-un jours avant Noël. \n
+
+Le premier candidat pressenti s\'appelait Achille et travaillait comme mécanicien dans un garage. Il crut que l\'étrange courrier était une farce de ses collègues et le jeta à la poubelle. De toute façon, il préférait de beaucoup les belles voitures à un traîneau, fut-il magique. \n
+
+Le deuxième, un certain Louis, était maire d\'un petit village de province et rêvait de devenir un grand politicien. Bien que Père Noël lui sembla être un poste enviable et populaire, il s\'imaginait mal vivre au Pôle Nord, entouré de lutins indisciplinés. Il déclina donc aimablement la proposition. \n
+
+Le troisième, Colin, directeur dans un hôtel, était un homme très occupé. Il ne fit pas vraiment attention à la lettre des lutins et l\'oublia sur la table de nuit d’une des chambres de l\'hôtel. \n
+
+Constatant que cette méthode n\'était pas concluante, les lutins décidèrent de se déplacer eux-mêmes chez les candidats suivants. \n
+
+C\'est ainsi qu\'Ernest, violoniste talentueux, fut dérangé un dimanche matin, en pleine répétition, par de drôles d\'enfants habillés de façon excentrique. C\'est du moins ce qu\'il pensa lorsqu’il claqua la porte au nez des lutins, sans même leur avoir laissé le temps de s\'expliquer. \n
+
+Günter, le cinquième sur la liste, était boulanger. Il écouta longuement et patiemment les petits lutins, sans rien dire. Quand ils eurent terminé d’exposer les différents critères de leur casting, il leur sourit gentiment et leur offrit une petite bûche de Noël pour les remercier de cette charmante histoire, avant de fermer sa boutique. \n
+
+Les lutins avaient bien du mal à comprendre pourquoi personne ne semblait prêt à les aider alors que Noël approchait et qu\'ils n\'avaient toujours personne pour distribuer les cadeaux. \n
+
+Ils décidèrent de revêtir chemise, veste et cravate afin qu\'on les prenne plus au sérieux. Cela n’arrangea rien… dès qu\'ils évoquaient le Père Noël, les portes se refermaient. \n
+
+Il ne resta bientôt plus qu\'un seul nom sur leur liste. \n
+
+Il s’agissait de Gaëtan, qui vivait sur la côte Atlantique et était moniteur de surf. Les lutins l\'abordèrent un soir, alors qu\'il se reposait sur le sable, contemplant le soleil couchant. Le moniteur de surf eut bien du mal à contenir son fou rire quand il les vit arriver sur la plage avec leurs costumes trop grands. \n
+
+Insistant sur l\'urgence de la situation, les lutins s’appliquèrent à convaincre Gaëtan. Cette fois, le candidat sembla s’intéresser à leur problème et prit le temps de réfléchir. \n
+Cela l\'embêtait de savoir Noël en péril mais, il avait déjà un projet très personnel pour le réveillon. Il comptait demander sa compagne en mariage le soir du vingt-quatre décembre. Et, navré, il déclina la proposition. \n
+
+Désespérés, les lutins rentrèrent au Pôle Nord. \n
+Sans doublure pour le Père Noël la distribution de cadeaux ne pouvait pas avoir lieu. \n
+Et cette fois, ils étaient à court d\'idées. \n
+
+Il ne leur restait plus qu\'à espérer un miracle. \n
+ \n
+*** \n
+ \n
+Alors que le Père Noël se reposait, pour reprendre quelques forces, la sonnerie de son téléphone retentit. \n
+
+— Bonjour, je m\'appelle Armand Noël et j\'appelle pour l\'annonce ! \n
+
+Dès le lendemain, Armand arriva au Pôle Nord. \n
+Il avait trouvé l\'annonce abandonnée sur une table de nuit dans un hôtel où il séjournait et, pensant que son profil pourrait convenir, il avait appelé. Et puis, se disait-il, avec un nom pareil, il fallait tenter sa chance. \n
+
+Enfin ! \n
+Le réveillon était dans moins de dix jours mais Armand était très motivé. Il entama aussitôt sa formation auprès des lutins, surexcités par son arrivée miraculeuse. \n
+
+Passionné de géographie, il apprit rapidement à situer chaque ville dans le monde entier, des grandes capitales jusqu’au plus petit village. \n
+Il s\'avéra également très doué dans la gestion des listes de cadeaux. Armand montrait une application particulière et un sens de l’organisation hors du commun. Il était vraiment le candidat idéal ! \n
+Toutefois, le plus délicat était d\'apprendre à descendre dans les cheminées. Il devait réussir à glisser avec un lourd sac de cadeaux sans se faire mal mais également sans se salir. La moindre tache de suie aurait été du plus mauvais effet sur un costume de Père Noël. \n
+
+Deux jours avant le réveillon, Armand était fin prêt ! \n
+Il ne lui manquait plus que l\'essentiel... \n
+La Mère Noël le convoqua alors dans son atelier. Sur un mannequin, se trouvait un véritable costume de Père Noël, réalisé sur-mesure, pour lui. Armand fut très ému en l\'essayant. La Mère Noël attrapa sur une coiffeuse un poudrier en or et ajouta sa touche personnelle pour achever la métamorphose. Lorsqu\'il croisa son reflet dans le miroir, le jeune homme n\'en crut pas ses yeux ! Il avait maintenant une magnifique barbe blanche et des sourcils cotonneux. \n
+La ressemblance avec le Père Noël était frappante ! \n
+
+Le lendemain, les lutins remplirent la hotte du Père Noël, bientôt débordante de cadeaux. \n
+Tout était fin prêt pour la grande nuit. \n
+ \n
+*** \n
+ \n
+Armand observait tout cela l’air inquiet. Il appréhendait un peu… S\'il échouait dans sa mission, la fête de milliers d\'enfants serait gâchée. Il ne dormit presque pas de la nuit, à la fois anxieux et excité. \n
+
+— C\'est Noël ! Debout c\'est Noël ! \n
+
+Les lutins sautaient partout, les rennes se trémoussaient, impatients de décoller. Leur joie était contagieuse. Armand et le Père Noël, qui avait tenu à l’accompagner, s’installèrent à bord du traîneau. \n
+
+Le fouet claqua et ils s\'envolèrent. Très vite, ils atteignirent la première maison. Armand se glissa dans la cheminée, comme à l\'entraînement. Il déposa les cadeaux au pied du sapin et repartit discrètement. Il en fut ainsi toute la nuit. \n
+Le lendemain, quand les enfants se réveillèrent, des montagnes de présents les attendaient. Noël avait finalement eut lieu sans encombre. \n
+
+Au retour de la tournée, le Père Noël convoqua Armand dans son bureau. \n
+Il était vieux et fatigué et il avait transmis tout ce qu\'il savait au jeune homme. Ce dernier s\'était avéré le candidat idéal et avait véritablement sauvé Noël. \n
+Alors, il lui donna ses pouvoirs. \n
+
+C\'est ainsi qu\'Armand Noël devint le nouveau Père Noël.
+
+    </string>
+
 </resources>

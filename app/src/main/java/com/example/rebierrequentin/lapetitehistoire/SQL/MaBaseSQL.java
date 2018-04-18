@@ -1,4 +1,4 @@
-package com.example.rebierrequentin.lapetitehistoire.SQL;
+/*package com.example.rebierrequentin.lapetitehistoire.SQL;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -38,3 +38,4 @@ public class MaBaseSQL extends SQLiteOpenHelper {
             onCreate(db);
         }
     }
+*/

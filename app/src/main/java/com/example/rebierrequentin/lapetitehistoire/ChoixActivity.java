@@ -1,14 +1,23 @@
 package com.example.rebierrequentin.lapetitehistoire;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
+
+import java.util.Random;
+
+import static java.security.AccessController.getContext;
 
 /**
  * Created by Rebierre Quentin on 20/03/2018.
@@ -34,13 +43,16 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
         Button bouton5min = (Button)this.findViewById(R.id.histoire5min);
         bouton5min.setOnClickListener(this);
 
-        Button bouton15min = (Button)this.findViewById(R.id.histoire15min);
+        Button bouton15min = (Button)this.findViewById(R.id.histoire10min);
         bouton15min.setOnClickListener(this);
 
         Button bouton30min = (Button)this.findViewById(R.id.histoire30min);
         bouton30min.setOnClickListener(this);
     }
 
+    public static int getStringIdentifier(Context context, String titre) {
+        return context.getResources().getIdentifier(titre, "string", context.getPackageName());
+    }
 
     @Override
     public void onClick(View v) {
@@ -51,23 +63,66 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
             this.startActivity(intentToutes);
         }
 
-        if ((v.getId() == R.id.histoire2min) || (v.getId() == R.id.histoire5min) || (v.getId() == R.id.histoire15min) || (v.getId() == R.id.histoire30min)) {
+        if ((v.getId() == R.id.histoire2min) || (v.getId() == R.id.histoire5min) || (v.getId() == R.id.histoire10min) || (v.getId() == R.id.histoire30min)) {
             this.ecouteurExport();
             TextView histoire = (TextView) this.findViewById(R.id.TextView);
             TextView Titre = (TextView) this.findViewById(R.id.Titre);
             if (v.getId() == R.id.histoire2min) {
-                histoire.setText("lililililli");
-                Titre.setText("Titre 2");
+                Random rand = new Random();
+                int n = rand.nextInt(3);
+                n = n+1;
+                String num = String.valueOf(n);
+
+                //Titre
+                String titre = "Titre2_" + num;
+                int titreH = getStringIdentifier(this, titre);
+
+                //Texte Histoire
+                String texte = "Histoire2_"+num;
+                int texteH = getStringIdentifier(this, texte);
+                histoire.setText(texteH);
+                Titre.setText(titreH);
             }
 
             if (v.getId() == R.id.histoire5min) {
-                histoire.setText("lululululu");
-                Titre.setText("Titre 5");
+
+                Random rand = new Random();
+                int n = rand.nextInt(3);
+                n = n+1;
+                String num = String.valueOf(n);
+
+                //Titre
+                String titre = "Titre5_" + num;
+                int titreH = getStringIdentifier(this, titre);
+
+                //Texte Histoire
+                String texte = "Histoire5_"+num;
+                int texteH = getStringIdentifier(this, texte);
+
+
+                histoire.setText(texteH);
+                Titre.setText(titreH);
             }
 
-            if (v.getId() == R.id.histoire15min) {
-                histoire.setText("lololololololo");
-                Titre.setText("Titre 15");
+            if (v.getId() == R.id.histoire10min) {
+
+                Random rand = new Random();
+                int n = rand.nextInt(2);
+                n = n+1;
+                String num = String.valueOf(n);
+
+                //Titre
+                String titre = "Titre10_" + num;
+                int titreH = getStringIdentifier(this, titre);
+
+                //Texte Histoire
+                String texte = "Histoire10_"+num;
+                int texteH = getStringIdentifier(this, texte);
+                histoire.setText(texteH);
+                Titre.setText(titreH);
+
+                histoire.setText(texteH);
+                Titre.setText(titreH);
             }
 
             if (v.getId() == R.id.histoire30min) {
@@ -76,11 +131,23 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
             }
         }
         TextView Titre = (TextView) this.findViewById(R.id.Titre);
+        TextView Histoire = (TextView) this.findViewById(R.id.TextView);
         String TextTitre = Titre.getText().toString();
+        String TextHistoire = Histoire.getText().toString();
         if (v.getId() == R.id.Export) {
             final Intent export = new Intent(ChoixActivity.this, ExportActivity.class);
             export.putExtra("titre", TextTitre);
             this.startActivity(export);
+        }
+
+        if (v.getId() == R.id.boutonFavoris) {
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+            SharedPreferences.Editor editor = preferences.edit();
+            String titre = TextTitre;
+            String texte = TextHistoire;
+            editor.putString("FAVORI1", texte);
+            editor.putString("FAVORI2", titre);
+            editor.apply();
         }
     }
 
@@ -88,7 +155,8 @@ public class ChoixActivity extends AppCompatActivity implements View.OnClickList
         setContentView(R.layout.histoire);
         ImageButton boutonexport = (ImageButton)this.findViewById(R.id.Export);
         boutonexport.setOnClickListener(this);
-
+        ImageButton boutonfav = (ImageButton)this.findViewById((R.id.boutonFavoris));
+        boutonfav.setOnClickListener(this);
     }
 
 }

@@ -23,6 +23,7 @@
         <activity android:name=".FavorisActivity"/>
         <activity android:name=".ParametresActivity"/>
         <activity android:name=".ExportActivity"/>
+        <activity android:name=".RefusActivity"/>
     </application>
 
 </manifest>
